@@ -23,22 +23,22 @@ I studied industrial engineering in France but ended up being a software enginee
 </p>
 
 ## How would you describe StarHackIt to someone who has never heard of it?
-*StarHackIt* is a full stack web application boilerplate. The aim is to provide a code base to quickly create new web application. It is a foundation on which software developers can build on top of it. 
+*StarHackIt* is a full stack web application boilerplate. The aim is to provide a code base to quickly create a new web application. It is a foundation on which software developers can build on top of it.
 
 This starter kit is written in Javascript *ES6*/*ES7*, it is composed of a frontend based on *React*/*Reflux*, a *Node.js* backend, the data is backed by *SQL* thanks to the *Sequelize ORM*, automatic deployment is done with *Ansible*. The code is built with *Gulp*, analyzed by *ESlint*, tested with *Mocha*, covered by *Istanbul*.
 
-One of the main benefit is that *StarHackIt* comes with *authentication*:
+One of the main benefits is that *StarHackIt* comes with *authentication*:
 
-* user can register and login with username and password, reset the password via email.
-* social login with Facebook, Google, GitHub etc ... 
+* users can register and login with username and password, reset the password via email.
+* social login with Facebook, Google, GitHub etc ...
 
-A fine grained *authorization* system based on groups, permissions and resources is also provided. This allows to create users belonging to groups with different set of permissions to the API. A simple example is to grant special access to users belonging to the *Admin* group.
+A fine-grained *authorization* system based on groups, permissions and resources is also provided. This allows to create users belonging to groups with a different set of permissions to the API. A simple example is to grant special access to users belonging to the *Admin* group.
 
 ## Why did you develop StarHackIt?
 
-Most Javascript boilerplates are not really full stack, either they focuss on the frontend or they specialize on the backend.
+Most Javascript boilerplates are not really full stack, either they focus on the frontend or they specialize on the backend.
 
-The data is almost always stored on non relational *NoSQL* database like *mongodb* or in the cloud with *firebase*. However, most applications rely on relational data so SQL databases as *Postresql* or *MySql* are better suited. Actually, using a NoSQL database when the data are essentially relational could lead to serious issues. 
+The data is almost always stored on non-relational *NoSQL* database like *MongoDB* or in the cloud with *Firebase*. However, most applications rely on relational data so SQL databases such as *PostreSQL* or *MySql* are better suited. Actually, using a NoSQL database when the data are essentially relational could lead to serious issues.
 
 <p>
   <span class="author">
@@ -46,11 +46,11 @@ The data is almost always stored on non relational *NoSQL* database like *mongod
   </span>
 </p>
 
-The *MEAN stack* is quite popular, it's composed of *MongoDB*, *Express*, *Angular* and *Node*. Instead *StarHackIt* is a *SERNA stack*: *SQL*, *Express*, *React*, *Node* and *Ansible*.
+The *MEAN stack* is quite popular, it's composed of *MongoDB*, *Express*, *Angular* and *Node*. Instead, *StarHackIt* is a *SERNA stack*: *SQL*, *Express*, *React*, *Node* and *Ansible*.
 
-The Ruby fans have ruby on rails but the Javacript developers don't have node on rails (yet). This project is a little step towards the direction of a productive javascript web framework.
+The Ruby fans have ruby on rails, but the Javascript developers don't have Node on rails (yet). This project is a little step towards the direction of a productive javascript web framework.
 
-Image that you have to attend a hackathon to create a useful app in a weekend, is there any time to lose creating from scratch an application with some basic functionalities such as login and register ? 
+Image that you have to attend a hackathon to create a useful app in a weekend, is there any time to lose creating from scratch an application with some basic functionalities such as login and register ?
 
 ## What kind of challenges have you experienced while developing it?
 The Javascript ecosystem is vibrant with a record number of packages that have overtaken any other languages, see [modulecount](http://www.modulecounts.com/) for the facts.
@@ -84,20 +84,20 @@ It is about selecting the best tools at a given time and integrating them. Over 
   </span>
 </p>
 
-Writing code in *ES6* and *ES7* adds another layer of complexity on the build system since files need to be transpiled to plain old Javascript. This also makes setting up code coverage and testing trickier. It's definitely worth it however.
+Writing code in *ES6* and *ES7* adds another layer of complexity on the build system since files need to be transpiled to plain old Javascript. This also makes setting up code coverage and testing trickier, however,  it's definitely worth it.
 
-The most amazing feature with *ES7* is **async/await**, forget about callbacks and Promises, async/await is an enlightenment and the way to go, it makes writing asynchronous code similar to writing synchronous code, it significantly changes the way javascript is written, especially on the node side.
+The most amazing feature of *ES7* is **async/await**, forget about callbacks and Promises, async/await is an enlightenment and the way to go, it makes writing asynchronous code similar to writing synchronous code, it significantly changes the way javascript is written, especially on the node side.
 
 
 > Twenty years ago JavaScript was a joke, now it's the future. [jster.net september-2015 ](http://jster.net/blog/monthly-jster-september-2015-part-2#.VkPBH2SKH-k)
 
 
 ## What next?
-Next is to improve the documentation to explain the various parts of the stack, write a tutorial on how to create the famous TODO app. Then a native mobile app with react-native is definitely on the road map. An admin interface to manage users and other aspects of the app would be also very useful.
+Next is to improve the documentation to explain the various parts of the stack, write a tutorial on how to create the famous TODO app. Then a native mobile app with react-native is definitely on the roadmap. An admin interface to manage users and other aspects of the app would be also very useful.
 
 
 ## What does the future look like for React and front-end in general? Can you see any particular trends?
-The future of React lies in the various flux implementations that are evolving very quickly, React is only a part of the equation for building an application. The React community is growing at fast pace, for instance, the React Meetup in London is fully booked only after 20 minutes upon publication of the event. The frontend development and software in general have a bright and sustainable future, there is no shortage of software development job in sight.
+The future of React lies in the various flux implementations that are evolving very quickly, React is only a part of the equation for building an application. The React community is growing at fast pace, for instance, the React Meetup in London is fully booked only after 20 minutes upon publication of the event. The frontend development and software in general have a bright and sustainable future, there is no shortage of software development jobs in sight.
 
 <p>
   <span>
